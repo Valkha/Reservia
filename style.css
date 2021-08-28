@@ -342,10 +342,14 @@ section h2{
 }
 footer{
     margin-top: 40px;
+    padding: 10px 10px;
     background-color: #F2F2F2;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+footer h4{
+    margin: 10px;
 }
 footer a{
     color: black;
@@ -353,15 +357,18 @@ footer a{
 #info{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 10px;
 }
 #hebergements{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 #assist{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
