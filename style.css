@@ -356,13 +356,7 @@ footer a{
     justify-content: space-around;
     margin: 10px;
 }
-#hebergements{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-#assist{
+#hebergements, #assist{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
