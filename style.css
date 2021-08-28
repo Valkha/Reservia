@@ -169,7 +169,7 @@ header nav .liens{
 }
 .filtres ul li:hover{
     cursor: pointer;
-    transform: scale(1.25);
+    transform: scale(1.05);
     background-color: rgb(241, 241, 241);
     transition: 0.2s;
 }
