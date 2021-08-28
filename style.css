@@ -1,7 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
-    margin-left: 100px;
-    margin-right: 100px;
+    width:90%;
+    margin:auto;
 }
 h1{
     font-size: 38px;
@@ -13,6 +17,9 @@ h3{
     font-size: 30px;
 }
 h4{
+    font-size: 22px;
+}
+h5{
     font-size: 22px;
 }
 .blue{
@@ -54,7 +61,7 @@ header nav .liens{
     font-weight: bold;
 }
 .buttons:hover{
-    border-top: solid 2px blue;
+    border-top: 2px solid blue;
     color: blue;
     transform: scale(1.02);
     transition: 0.2s;
@@ -134,20 +141,16 @@ header nav .liens{
     justify-content: space-between;
     align-items: center;
     margin-left: 40px;
+    list-style-type:none;
 }
 .filtres ul li{
-    list-style: none;
     border: solid 2px #F2F2F2;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-radius:25px;
     padding-right: 10px;
     display: flex;
-    justify-content: center;
     justify-content: space-between;
     align-items: center;
-    transform: scale(1.2);
+    height: 50px;
 }
 .filtres ul li .text{
     padding-left: 10px;
@@ -155,19 +158,14 @@ header nav .liens{
 }
 .filtres ul li i{
     background-color: rgb(196, 220, 255);
-    padding: 10px 10px;
-    width: 25px;
-    height: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    width: 50px;
+    border-radius:100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: blue;
     font-size: 20px;
-    transform: scale(1.05);
+    height:50px;
 }
 .filtres ul li:hover{
     cursor: pointer;
@@ -211,7 +209,6 @@ header nav .liens{
 }
 .content .hebergements{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -235,7 +232,6 @@ header nav .liens{
     
 }
 .hebergements .box-content img{
-    max-width: 100%;
     width: 100%;
     max-height: 100%;
     height: 55%;
@@ -299,14 +295,11 @@ header nav .liens{
     border-top-left-radius: 20px;
     object-fit: cover;
 }
-.populaires .box-content h4{
+.populaires .box-content h4, .populaires .box-content .stars{
     margin: 7px;
 }
 .populaires .box-content p{
     font-weight: bold;
-    margin: 7px;
-}
-.populaires .box-content .stars{
     margin: 7px;
 }
 .activites{
@@ -320,7 +313,7 @@ section h2{
 }
 .content button{
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     width: 150px;
     border: none;
