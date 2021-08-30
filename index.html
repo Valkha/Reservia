@@ -2,13 +2,14 @@
 <html lang="fr">
 
 <head>
-    <meta charset="utf-8" name="Description" content="Trouvez votre hébergement pour des vacances de rêve, en plein centre ville ou pleine nature">
-    <title>Reservia</title>
+    <meta charset="utf-8">
+    <meta name="Description" content="Trouvez votre hébergement pour des vacances de rêve, en plein centre ville ou pleine nature">
+    <title>Hébergements pour vos vacances - Reservia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/60b308914c.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -53,16 +54,17 @@
         </div>
         <div class="info">
             <i class="fas fa-info"></i>
-            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            <p>Plus de 500 <strong>logements</strong> sont disponibles dans cette ville</p>
         </div>
     </div>
     <div class="content">
         <div class="hebergements">
             <h3>Hébergements à Marseille</h3>
-            <a href="#" class="box-content">
-                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
-                <h4>Auberge la Cannebière</h4>
-                <p>Nuit à partir de <span>25€</span></p>
+            <a href="#" class="box-content" itemscope itemtype="https://schema.org/Hotel">
+                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" itemprop="image">
+                <h4 itemprop="name">Auberge la Cannebière</h4>
+                <p itemprop="priceSpecification" itemscope itemtype="https://schema.org/UnitPriceSpecification">
+                <meta itemprop="unitCode" content="NIGHT">Nuit à partir de <span itemprop="price">25<meta itemprop="priceCurrency" content="EUR">€</span></p>
                 <div class="stars">
                     <i class="fas fa-star blue"></i>
                     <i class="fas fa-star blue"></i>
@@ -179,7 +181,7 @@
                         <i class="fas fa-star grey"></i>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
     <section>
