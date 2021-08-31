@@ -319,9 +319,15 @@ header nav .liens{
 }
 .activites figcaption{
     margin: auto;
+    font-size: 20px;
+    font-weight: bold;
 }
 .activitesbox{
     box-shadow: 0 0 15px rgb(168, 167, 167);
+}
+.activitesbox:hover{
+    transform: scale(1.02);
+    transition: 0.2s;
 }
 #activitesbox1{
     display: flex;
