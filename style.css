@@ -21,6 +21,7 @@ h4{
 }
 h5{
     font-size: 22px;
+    margin: 10px;
 }
 .blue{
     color: blue;
@@ -501,6 +502,7 @@ footer h4{
 }
 footer a{
     color: black;
+    margin: 3px;
 }
 #info{
     display: flex;
