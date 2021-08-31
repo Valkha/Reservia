@@ -74,7 +74,7 @@ header nav .liens{
     font-weight: bolder;
 }
 #button_03:hover{
-    background-color: rgb(231, 229, 229);
+    background-color: #F2F2F2;
 }
 .localisation{
     display: flex;
