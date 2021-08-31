@@ -515,3 +515,6 @@ footer a{
     justify-content: space-between;
     margin-bottom: 30px;
 }
+section h3{
+    margin: 30px 40px;
+}
