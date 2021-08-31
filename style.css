@@ -313,7 +313,7 @@ header nav .liens{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 50px;
 }
 .activites figure{
     margin: 0;
