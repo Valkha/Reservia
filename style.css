@@ -501,12 +501,15 @@ footer{
     align-items: center;
 }
 footer h5{
-    margin: 10px 0px;
+    margin: 15px 0px;
 }
 footer a{
     color: black;
-    margin: 3px 0px;
+    margin: 7px 0px;
     text-decoration-line: none;
+}
+footer a:hover{
+    text-decoration-line: underline;
 }
 #info{
     display: flex;
