@@ -130,14 +130,14 @@ header nav .liens{
     font-size: 25px;
     transition: 00.2s;
 }
-.filtres{
+.filters{
     display: flex;
     align-items: center;
     font-weight: bold;
     height: 150px;
 
 }
-.filtres ul{
+.filters ul{
     width: 55%;
     display: flex;
     flex-wrap: wrap;
@@ -147,7 +147,7 @@ header nav .liens{
     margin-left: 40px;
     list-style-type:none;
 }
-.filtres ul li{
+.filters ul li{
     border: solid 2px #F2F2F2;
     border-radius:25px;
     padding-right: 10px;
@@ -156,11 +156,11 @@ header nav .liens{
     align-items: center;
     height: 50px;
 }
-.filtres ul li .text{
+.filters ul li .text{
     padding-left: 10px;
     padding-right: 5px;
 }
-.filtres ul li i{
+.filters ul li i{
     background-color: rgb(196, 220, 255);
     width: 50px;
     border-radius:100%;
@@ -171,7 +171,7 @@ header nav .liens{
     font-size: 20px;
     height:50px;
 }
-.filtres ul li:hover{
+.filters ul li:hover{
     cursor: pointer;
     transform: scale(1.05);
     background-color: rgb(241, 241, 241);
@@ -203,15 +203,15 @@ header nav .liens{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.content .hebergements h3{
+.content .host h3{
     width: 100%;
     margin: 20px 40px;
 }
-.content .populaires h3{
+.content .popular h3{
     width: 90%;
     margin: 20px 10px;
 }
-.content .hebergements{
+.content .host{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -225,7 +225,7 @@ header nav .liens{
     text-decoration: none;
     color: black;
 }
-.hebergements .box-content{
+.host .box-content{
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -237,7 +237,7 @@ header nav .liens{
     margin: 10px;
     padding: 10px 10px;   
 }
-.hebergements .box-content img{
+.host .box-content img{
     width: 100%;
     max-height: 100%;
     height: 55%;
@@ -245,23 +245,23 @@ header nav .liens{
     border-top-left-radius: 20px;
     object-fit: cover;
 }
-.hebergements .box-content h4{
+.host .box-content h4{
     margin: 7px;
 }
-.hebergements .box-content p{
+.host .box-content p{
     font-weight: bold;
     padding-top: 0px;
     margin: 7px;
 }
-.hebergements .box-content .stars{
+.host .box-content .stars{
     margin: 7px;
 }
-.hebergements button{
+.host button{
     align-items: center;
     justify-content: center;
     margin: auto;
 }
-.content .populaires{
+.content .popular{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,11 +272,11 @@ header nav .liens{
     height: 800px;
     flex: 1;
 }
-.populaires .title{
+.popular .title{
     display: flex;
     justify-content: space-between;
 }
-.populaires .box-content{
+.popular .box-content{
     background-color: white;
     box-shadow: 0 0 15px rgb(168, 167, 167);
     border-radius: 30px;
@@ -288,27 +288,27 @@ header nav .liens{
     padding: 7px 7px;
 }
 
-.populaires .box-content .details{
+.popular .box-content .details{
     display: flex;
     flex-direction: column;
     margin-left: 10px;
     justify-content: space-around;
 }
-.populaires .box-content img{
+.popular .box-content img{
     max-width: 100%;
     width: 45%;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     object-fit: cover;
 }
-.populaires .box-content h4, .populaires .box-content .stars{
+.popular .box-content h4, .popular .box-content .stars{
     margin: 7px;
 }
-.populaires .box-content p{
+.popular .box-content p{
     font-weight: bold;
     margin: 7px;
 }
-.activites{
+.activities{
     border-radius: 20px;
     height: 550px;
     width: 100%;
@@ -316,23 +316,23 @@ header nav .liens{
     justify-content: space-between;
     gap: 50px;
 }
-.activites figure{
+.activities figure{
     margin: 0;
 }
-.activites figcaption{
+.activities figcaption{
     margin: auto;
     font-size: 20px;
     font-weight: bold;
 }
-.activitesbox{
+.activitiesbox{
     box-shadow: 0 0 15px rgb(168, 167, 167);
 }
-.activitesbox:hover{
+.activitiesbox:hover{
     transform: scale(1.01);
     box-shadow: 0px 0px 17px grey;
     transition: 0.2s;
 }
-#activitesbox1{
+#activitiesbox1{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -341,14 +341,14 @@ header nav .liens{
     height: 100%;
     border-radius: 20px 20px 20px 20px;
 }
-#activitesbox1 img{
+#activitiesbox1 img{
     position: relative;
     width: 100%;
     height: 90%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
-#activitesbox2{
+#activitiesbox2{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -358,14 +358,14 @@ header nav .liens{
     height: 50%;
     border-radius: 20px 20px 20px 20px;
 }
-#activitesbox2 img{
+#activitiesbox2 img{
     position: relative;
     width: 100%;
     height: 80%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
-#activitesbox3{
+#activitiesbox3{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -375,14 +375,14 @@ header nav .liens{
     height: 40%;
     border-radius: 20px 20px 20px 20px;
 }
-#activitesbox3 img{
+#activitiesbox3 img{
     position: relative;
     width: 100%;
     height: 80%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
-#activitesbox4{
+#activitiesbox4{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -391,14 +391,14 @@ header nav .liens{
     height: 100%;
     border-radius: 20px 20px 20px 20px;
 }
-#activitesbox4 img{
+#activitiesbox4 img{
     position: relative;
     width: 100%;
     height: 90%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
-#activitesbox5{
+#activitiesbox5{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -408,14 +408,14 @@ header nav .liens{
     height: 40%;
     border-radius: 20px 20px 20px 20px;
 }
-#activitesbox5 img{
+#activitiesbox5 img{
     position: relative;
     width: 100%;
     height: 80%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
-#activitesbox6{
+#activitiesbox6{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -425,14 +425,14 @@ header nav .liens{
     height: 50%;
     border-radius: 20px 20px 20px 20px;
 }
-#activitesbox6 img{
+#activitiesbox6 img{
     position: relative;
     width: 100%;
     height: 80%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
-#activitescolumn1{
+#activitiescolumn1{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -441,7 +441,7 @@ header nav .liens{
     height: 100%;
     margin: auto;
 }
-#activitescolumn2{
+#activitiescolumn2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -450,7 +450,7 @@ header nav .liens{
     height: 100%;
     margin: auto;
 }
-#activitescolumn3{
+#activitiescolumn3{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -459,7 +459,7 @@ header nav .liens{
     height: 100%;
     margin: auto;
 }
-#activitescolumn4{
+#activitiescolumn4{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
