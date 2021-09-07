@@ -76,7 +76,7 @@ header nav .liens{
 #button_03:hover{
     background-color: #F2F2F2;
 }
-.localisation{
+.location{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -86,7 +86,7 @@ header nav .liens{
     height: 50px;
     margin-top: 30px;
 }
-.localisation input{
+.location input{
     width: 50%;
     border: none;
     border-top: solid 2px #F2F2F2;
@@ -96,7 +96,7 @@ header nav .liens{
 
     font-size: 17px;
 }
-.localisation button{
+.location button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,7 +109,7 @@ header nav .liens{
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
 }
-.localisation button:hover{
+.location button:hover{
     cursor: pointer;
     font-size: 18px;
     transition: 0.2s;
@@ -177,11 +177,11 @@ header nav .liens{
     background-color: rgb(241, 241, 241);
     transition: 0.2s;
 }
-.entete .info{
+.headerTitle .info{
     display: inline-flex;
     align-items: center;
 }
-.entete .info i{
+.headerTitle .info i{
     padding: 15px 15px;
     width: 5px;
     height: 5px;
@@ -193,7 +193,7 @@ header nav .liens{
     color: blue;
     font-size: 20px;
 }
-.entete .info p{
+.headerTitle .info p{
     margin-left: 15px;
     font-size: 18px;
 }
@@ -484,7 +484,7 @@ section h2{
 }
 .content button:hover{
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.2s;
 }
 .content .box-content:hover{
@@ -519,7 +519,7 @@ footer a:hover{
     justify-content: space-between;
     margin-bottom: 20px;
 }
-#hebergements, #assist{
+#hosting, #assist{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
