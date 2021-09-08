@@ -67,27 +67,20 @@ header nav .liens{
 }
 .location{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    border: none;
+    border: 2px solid #F2F2F2;
     border-radius: 15px;
-    width: 100%;
     height: 50px;
     margin: 30px 0px;
 }
 .location input{
     width: 100%;
     border: none;
-    border-top: solid 2px #F2F2F2;
-    border-bottom: solid 2px #F2F2F2;
     padding-left: 20px;
     outline: none;
     font-size: 18px;
 }
 .location button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 15%;
     border: none;
     color: white;
@@ -120,6 +113,8 @@ header nav .liens{
     flex-wrap: wrap;
     flex-direction: row;
     list-style-type:none;
+    justify-content: space-between;
+    padding: 0px 10px;
 }
 .filters ul li{
     border: solid 2px #F2F2F2;
@@ -128,6 +123,7 @@ header nav .liens{
     justify-content: space-between;
     align-items: center;
     height: 50px;
+    margin: 3px 0px;
 }
 .filters ul li .text{
     padding-left: 5px;
