@@ -1,8 +1,13 @@
+* {
+    box-sizing: border-box;
+}
 body{
     font-family: 'Raleway', sans-serif;
     margin: auto;
     padding: 0;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
 }
 main{
@@ -43,6 +48,22 @@ h5{
 }
 .grey{
     color: grey;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header nav{
+    display:flex;
+    align-items: flex-start;
+    height: 40px;
+}
+header nav .liens{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 10%;
 }
 .location{
     display: flex;
