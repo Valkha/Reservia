@@ -3,8 +3,7 @@
 }
 body{
     font-family: 'Raleway', sans-serif;
-    margin: auto;
-    padding: 0;
+    margin: 0;
 }
 main{
     margin: 0px 20px;
@@ -49,7 +48,8 @@ h5{
 header{
     display: flex;
     flex-direction: column;
-    margin: 0;
+    justify-content: space-between;
+    margin: auto;
 }
 header nav{
     display:flex;
@@ -58,9 +58,28 @@ header nav{
 }
 header nav .liens{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-between;
-    width: 10%;
+    flex-wrap: wrap;
+}
+.buttons{
+    display:flex;
+    flex-direction: column;
+    border: none;
+    font-size: 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bold;
+    width: 190px;
+    padding: 10px;
+    border-bottom: 3px solid blue;
+}
+.buttons:hover{
+    border-top: 2px solid blue;
+    color: blue;
+    transform: scale(1.02);
+    transition: 0.2s;
 }
 .location{
     display: flex;
@@ -158,7 +177,7 @@ header nav .liens{
 }
 .content{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -170,8 +189,6 @@ header nav .liens{
     align-items: center;
     border-radius: 20px;
     width: 100%;
-    height: 800px;
-    flex: 1;
 }
 .host .box-content{
     background-color: white;
@@ -202,14 +219,21 @@ header nav .liens{
 .host .box-content .stars{
     margin: 5px;
 }
+.content button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    margin: 30px 20px;
+}
 .content .popular{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F2F2F2;
     border-radius: 20px;
-    height: 800px;
-    flex: 2;
 }
 .popular .title{
     display: flex;
@@ -245,7 +269,6 @@ header nav .liens{
 }
 section #activities{
     border-radius: 20px;
-    height: 300px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -255,12 +278,10 @@ section #activities{
 .activities{
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 .activitiescolumn1, .activitiescolumn2{
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 .activitiesbox{
     background-color: white;
@@ -271,7 +292,7 @@ section #activities{
     border-radius: 22px;
     width: 100%;
     height: 200px;
-    margin: 20px; 
+    margin: 50px; 
 }
 .activitiesbox img{
     width: 100%;
