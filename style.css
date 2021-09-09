@@ -330,6 +330,7 @@ header nav .liens{
     transform: scale(1.01);
     box-shadow: 0px 0px 17px grey;
     transition: 0.2s;
+    cursor: pointer;
 }
 #activitiesbox1{
     display: flex;
