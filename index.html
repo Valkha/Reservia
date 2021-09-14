@@ -3,22 +3,25 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="Description" content="Trouvez votre hébergement pour des vacances de rêve, en plein centre ville ou pleine nature">
+    <meta name="Description"
+        content="Trouvez votre hébergement pour des vacances de rêve, en plein centre ville ou pleine nature">
     <title>Hébergement pour vos vacances - Reservia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/60b308914c.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" media="screen and (min-width: 376px)">
-    <link rel="stylesheet" href="style_mobile.css" media="screen and (max-width: 375px)">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_mobile_2.css" media="screen and (max-width: 767px)">
 </head>
 
 <body>
     <header>
         <img id="logo" src="images/logo/Reservia@3x.png" alt="logo bleu Reservia">
         <nav class="liens">
-            <a href="#" id="button_01" class="buttons grey">Hébergements</a>
-            <a href="#" id="button_02" class="buttons grey">Activités</a>
+            <div id="nav" class="buttons grey">
+                <a href="#" id="button_01" class="buttons grey">Hébergements</a>
+                <a href="#" id="button_02" class="buttons grey">Activités</a>
+            </div>
             <a href="#" id="button_03" class="buttons blue">S'inscrire</a>
         </nav>
     </header>
@@ -32,7 +35,8 @@
                 </span>
                 <input type="search" placeholder="Marseille, France">
                 <button type="button">
-                    Rechercher
+                    <span id="rechercher">Rechercher</span>
+                    <i class="fas fa-search"></i>
                 </button>
             </div>
             <div class="filters">
