@@ -4,7 +4,7 @@
 body{
     font-family: 'Raleway', sans-serif;
     width:100%;
-    margin:auto;
+    margin: auto;
 }
 main{
     margin: 0px 150px;
@@ -41,15 +41,15 @@ header{
     display: flex;
     justify-content: space-between;
 }
+#nav{
+    width: 100%;
+}
 header nav{
     display:flex;
-    align-items: flex-end;
     height: 100px;
 }
 header nav .liens{
     display: flex;
-    justify-content: space-around;
-    width: 35%;
 }
 .buttons{
     display:flex;
@@ -62,12 +62,11 @@ header nav .liens{
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    border-top: 2px solid transparent;
 }
 .buttons:hover{
-    border-top: 2px solid blue;
     color: blue;
-    transform: scale(1.02);
-    transition: 0.2s;
+    border-color: blue;
 }
 #button_03{
     font-weight: bolder;
@@ -79,21 +78,18 @@ header nav .liens{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: none;
+    border: 2px solid #F2F2F2;
     border-radius: 15px;
     width: 30%;
     height: 50px;
     margin-top: 30px;
 }
 .location input{
-    width: 50%;
+    width: 53%;
     border: none;
-    border-top: solid 2px #F2F2F2;
-    border-bottom: solid 2px #F2F2F2;
     padding-left: 20px;
     outline: none;
-
-    font-size: 17px;
+    font-size: 18px;
 }
 .location button{
     display: flex;
@@ -107,6 +103,9 @@ header nav .liens{
     background-color: rgb(35, 93, 255);
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
+}
+.location .fa-search{
+    display: none;
 }
 .location button:hover{
     cursor: pointer;
@@ -184,7 +183,7 @@ header nav .liens{
     padding: 15px 15px;
     width: 5px;
     height: 5px;
-    border: solid 1px black;
+    border: solid 1px #F2F2F2;
     border-radius: 100%;
     display: flex;
     justify-content: center;
