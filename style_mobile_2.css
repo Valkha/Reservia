@@ -32,27 +32,26 @@ header{
     height: auto;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 10px 10px;
-    height: 150px;
+    margin: 0;
 }
-#nav{
+header nav{
     width: 100%;
     order: 3;
+    height:initial;
 }
-header nav .liens{
-    align-items: flex-end;
-    height: auto;
-    flex-wrap: wrap;
+header nav .buttons{
+    border-bottom: 3px solid #F2F2F2;
 }
 .buttons{
     font-size: 15px;
     width: 190px;
-    padding: 10px;
-    border-bottom: 3px solid #F2F2F2;
+    padding: 20px;
     border-top: none;
+    height: initial;
 }
 #button_03{
     order: 2;
+    width:initial;
 }
 .location{
     height: 50px;
@@ -78,10 +77,14 @@ header nav .liens{
     flex-wrap: wrap;
     justify-content: flex-start;
     height: auto;
+    margin: 30px 0;
+    
 }
 .filters ul{
     list-style-type:none;
     padding: 0px 5px;
+    width: 100%;
+    margin-left: 0;
 }
 .filters ul li{
     margin: 3px 0px;
