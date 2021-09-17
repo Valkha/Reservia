@@ -30,30 +30,15 @@ h4{
     margin: 0;
 }
 header{
-    height: auto;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: 0;
-    justify-content: space-between;
 }
 header nav{
-    width: 100%;
-    order: 3;
-    height:initial;
 }
 header nav .buttons{
-    border-bottom: 3px solid #F2F2F2;
 }
 .buttons{
     font-size: 15px;
-    width: 190px;
-    padding: 20px;
-    border-top: none;
-    height: initial;
 }
 #button_03{
-    order: 2;
-    width:initial;
 }
 .location{
     height: 50px;
