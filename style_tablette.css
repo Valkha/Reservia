@@ -1,0 +1,232 @@
+body{
+    width: auto;
+    margin: 0;
+}
+main{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+h1{
+    font-size: 22px;
+
+}
+h2{
+    font-size: 17px;
+}
+h3{
+    font-size: 22px;
+}
+h4{
+    font-size: 17px;
+}
+#logo{
+    width: 100px;
+    height: 50px;
+    order: 1;
+}
+header{
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-between;
+    width: 100%;
+}
+header nav{
+    order: 3;
+    height:initial;
+    width: 100%;
+}
+header nav .buttons{
+    border-bottom: 3px solid #F2F2F2;
+}
+.buttons{
+    font-size: 20px;
+    width: 50%;
+    padding: 20px;
+    border-top: none;
+    height: initial;
+}
+#button_03{
+    order: 2;
+    width:initial;
+}
+.location{
+    height: 50px;
+    width: 100%;
+}
+.location input{
+    width: 100%;
+}
+.location button{
+    width: 25%;
+    border-radius: 15px 15px;
+}
+.location .fa-search{
+    display: block;
+}
+.location #rechercher{
+    display: none;
+}
+#iconeloc{
+    width: 25%;
+}
+.filters{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: auto;
+    margin: 30px 0;
+    
+}
+.filters ul{
+    list-style-type:none;
+    padding: 0px 5px;
+    width: 100%;
+    margin-left: 0;
+}
+.filters ul li{
+    margin: 3px 0px;
+}
+.filters ul li .text{
+    padding-left: 5px;
+}
+.headerTitle .info p{
+    font-size: 15px;
+}
+.headerTitle{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.content{
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.content .host{
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: nowrap;
+    border-radius: 0;
+    margin: 40px 0px 0px 0px
+}
+.host .box-content{
+    border-radius: 22px;
+    width: 90%;
+    height: 200px;
+    padding: 3px 3px;   
+}
+.host .box-content h4{
+    margin: 5px;
+}
+.host .box-content p{
+    margin: 5px;
+}
+.host .box-content .stars{
+    margin: 5px;
+}
+.content button{
+    margin: 20px 20px;
+    align-items: center;
+    justify-content: inherit;
+}
+.content .popular{
+    margin: 0;
+    background-color: white;
+}
+.popular .box-content{
+    text-decoration: none;
+    width: 90%;
+    height: 160px;
+}
+
+.popular .box-content .details{
+    justify-content: space-between;
+}
+.popular .box-content img{
+    width: 40%;
+}
+.popular .box-content h4, .popular .box-content .stars, p{
+    margin: 7px;
+}
+section #activities{
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.activities{
+    flex-direction: column;
+    height: auto;
+}
+.activitiesbox{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 0 15px rgb(168, 167, 167);
+    border-radius: 20px;
+    height: 250px;
+    margin: 50px; 
+}
+.activitiesbox img{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    height: 80%;
+    border-radius: 20px 20px 0 0;
+}
+.activities figure{
+    width: 100%;
+    margin: auto;
+}
+#activitiescolumn1{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+#activitiescolumn2{
+    width: 100%;
+    gap: 50px;
+}
+#activitiescolumn3{
+    width: 100%;
+}
+#activitiescolumn4{
+    justify-content: space-between;
+    width: 100%;
+    gap: 50px;
+}
+#activitiesbox4{
+    width: 100%;
+    justify-content: center;
+}
+#activitiesbox1, #activitiesbox2, #activitiesbox3, #activitiesbox4, #activitiesbox5, #activitiesbox6{
+    height: 250px;
+}
+#activitiesbox1 img, #activitiesbox4 img{
+    height: 80%;
+}
+footer{
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+}
+#info{
+    margin-bottom: 50px;
+}
+#info, #hosting, #assist{
+    margin-left: 30px;
+}
+section h3{
+    margin: 30px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
