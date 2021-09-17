@@ -1,30 +1,18 @@
-* {
-    box-sizing: border-box;
-}
 body{
-    font-family: 'Raleway', sans-serif;
+    width: auto;
     margin: 0;
 }
 main{
-    margin: 0px 20px;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-#logo{
-    width: 100px;
-    height: 50px;
-}
-header{
-    margin: 30px 20px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
 }
 h1{
     font-size: 22px;
-    font-weight: bolder;
+
 }
 h2{
     font-size: 17px;
@@ -35,226 +23,131 @@ h3{
 h4{
     font-size: 17px;
 }
-h5{
-    font-size: 22px;
-    margin: 10px;
-}
-.blue{
-    color: blue;
-}
-.grey{
-    color: grey;
+#logo{
+    width: 100px;
+    height: 50px;
+    order: 1;
+    margin: 0;
 }
 header{
-    display: flex;
-    flex-direction: column;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0;
     justify-content: space-between;
-    margin: 10px 10px;
 }
 header nav{
-    display:flex;
-    align-items: flex-start;
-    height: 40px;
+    width: 100%;
+    order: 3;
+    height:initial;
 }
-header nav .liens{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    flex-wrap: wrap;
+header nav .buttons{
+    border-bottom: 3px solid #F2F2F2;
 }
 .buttons{
-    display:flex;
-    flex-direction: column;
-    border: none;
     font-size: 15px;
-    border-radius: 3px;
-    text-decoration: none;
-    align-items: center;
-    font-weight: bold;
     width: 190px;
-    padding: 10px;
-    border-bottom: 3px solid blue;
+    padding: 20px;
+    border-top: none;
+    height: initial;
 }
-.buttons:hover{
-    border-top: 2px solid blue;
-    color: blue;
-    transform: scale(1.02);
-    transition: 0.2s;
+#button_03{
+    order: 2;
+    width:initial;
 }
 .location{
-    display: flex;
-    justify-content: center;
-    border: 2px solid #F2F2F2;
-    border-radius: 15px;
     height: 50px;
-    margin: 30px 0px;
+    width: 100%;
 }
 .location input{
     width: 100%;
-    border: none;
-    padding-left: 20px;
-    outline: none;
-    font-size: 18px;
 }
 .location button{
-    width: 15%;
-    border: none;
-    color: white;
-    font-weight: bold;
-    font-size: 17px;
-    background-color: rgb(35, 93, 255);
+    width: 25%;
     border-radius: 15px 15px;
 }
+.location .fa-search{
+    display: block;
+}
+.location #rechercher{
+    display: none;
+}
 #iconeloc{
-    width: 30%;
+    width: 25%;
 }
 .filters{
-    display: flex;
     flex-wrap: wrap;
-    font-weight: bold;
     justify-content: flex-start;
-
+    height: auto;
+    margin: 30px 0;
+    
 }
 .filters ul{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     list-style-type:none;
-    justify-content: space-between;
     padding: 0px 5px;
+    width: 100%;
+    margin-left: 0;
 }
 .filters ul li{
-    border: solid 2px #F2F2F2;
-    border-radius:25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
     margin: 3px 0px;
 }
 .filters ul li .text{
     padding-left: 5px;
-    padding-right: 5px;
-}
-.filters ul li i{
-    background-color: rgb(196, 220, 255);
-    width: 50px;
-    border-radius:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: blue;
-    font-size: 20px;
-    height:50px;
-}
-.headerTitle .info{
-    display: flex;
-    align-items: center;
-}
-.headerTitle .info i{
-    padding: 12px 12px;
-    width: 5px;
-    height: 5px;
-    border: solid 1px #F2F2F2;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: blue;
-    font-size: px;
 }
 .headerTitle .info p{
-    margin-left: 15px;
     font-size: 15px;
 }
-.content{
+.headerTitle{
     display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.content{
     flex-direction: column-reverse;
     justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
-.host{
-    display: flex;
+.content .host{
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 20px;
     width: 100%;
+    flex-wrap: nowrap;
+    border-radius: 0;
+    margin: 40px 0px 0px 0px
 }
 .host .box-content{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    box-shadow: 0 0 15px rgb(168, 167, 167);
     border-radius: 22px;
-    width: 100%;
+    width: 90%;
     height: 200px;
-    margin: 10px;
     padding: 3px 3px;   
-}
-.host .box-content img{
-    width: 100%;
-    height: 55%;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    object-fit: cover;
 }
 .host .box-content h4{
     margin: 5px;
 }
 .host .box-content p{
-    padding-top: 0px;
     margin: 5px;
 }
 .host .box-content .stars{
     margin: 5px;
 }
 .content button{
-    display: flex;
-    justify-content: center;
+    margin: 20px 20px;
     align-items: center;
-    width: 150px;
-    border: none;
-    background: none;
-    font-size: 20px;
-    margin: 30px 20px;
+    justify-content: inherit;
 }
 .content .popular{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 20px;
-}
-.popular .title{
-    display: flex;
-    justify-content: space-between;
+    margin: 0;
+    background-color: white;
 }
 .popular .box-content{
-    background-color: white;
-    box-shadow: 0 0 15px rgb(168, 167, 167);
     text-decoration: none;
-    border-radius: 30px;
-    width: 100%;
+    width: 90%;
     height: 160px;
-    margin: 10px;
-    display: flex;
-    flex-direction: row;
-    padding: 7px 7px;
 }
 
 .popular .box-content .details{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
     justify-content: space-between;
 }
 .popular .box-content img{
     width: 40%;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    object-fit: cover;
 }
 .popular .box-content h4, .popular .box-content .stars, p{
     margin: 7px;
@@ -266,66 +159,69 @@ section #activities{
     align-items: center;
 }
 .activities{
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    height: auto;
 }
 .activitiesbox{
     background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     text-decoration: none;
     box-shadow: 0 0 15px rgb(168, 167, 167);
-    border-radius: 22px;
-    width: 100%;
-    height: 200px;
+    border-radius: 20px;
+    height: 250px;
     margin: 50px; 
 }
 .activitiesbox img{
     width: 100%;
-    height: 65%;
-    border-top-right-radius: 22px;
-    border-top-left-radius: 22px;
     object-fit: cover;
+    position: relative;
+    height: 80%;
+    border-radius: 20px 20px 0 0;
 }
 .activities figure{
-    margin: 0;
+    width: 100%;
+    margin: auto;
+}
+#activitiescolumn1{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+#activitiescolumn2{
+    width: 100%;
+    gap: 50px;
+}
+#activitiescolumn3{
     width: 100%;
 }
-.activities figcaption{
-    margin: auto;
-    font-size: 20px;
-    font-weight: bold;
+#activitiescolumn4{
+    justify-content: space-between;
+    width: 100%;
+    gap: 50px;
+}
+#activitiesbox4{
+    width: 100%;
+    justify-content: center;
+}
+#activitiesbox1, #activitiesbox2, #activitiesbox3, #activitiesbox4, #activitiesbox5, #activitiesbox6{
+    height: 250px;
+}
+#activitiesbox1 img, #activitiesbox4 img{
+    height: 80%;
 }
 footer{
-    margin-top: 40px;
-    padding: 10px 10px;
-    background-color: #F2F2F2;
-    display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex;
-}
-footer h5{
-    margin: 15px 0px;
-}
-footer a{
-    color: black;
-    margin: 7px 0px;
-    text-decoration-line: none;
+    align-items: flex-start;
+    height: auto;
 }
 #info{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     margin-bottom: 50px;
-    margin-left: 30px;
 }
-#hosting, #assist{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 50px;
+#info, #hosting, #assist{
     margin-left: 30px;
 }
 section h3{
