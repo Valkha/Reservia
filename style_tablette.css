@@ -105,6 +105,7 @@ header nav .buttons{
 .content{
     flex-direction: column-reverse;
     justify-content: space-between;
+    width: 100%;
 }
 .content .host{
     flex-direction: column;
@@ -115,9 +116,11 @@ header nav .buttons{
 }
 .host .box-content{
     border-radius: 22px;
-    width: 90%;
-    height: 200px;
+    width: 70%;
+    height: 250px;
     padding: 3px 3px;   
+    display: flex;
+    align-items: center;
 }
 .host .box-content h4{
     margin: 5px;
@@ -139,8 +142,8 @@ header nav .buttons{
 }
 .popular .box-content{
     text-decoration: none;
-    width: 90%;
-    height: 160px;
+    width: 70%;
+    height: 200px;
 }
 
 .popular .box-content .details{
