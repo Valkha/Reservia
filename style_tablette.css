@@ -114,6 +114,9 @@ header nav .buttons{
     border-radius: 0;
     margin: 40px 0px 0px 0px
 }
+.content h4{
+    font-size: 22px;
+}
 .host .box-content{
     border-radius: 22px;
     width: 70%;
