@@ -217,7 +217,7 @@ header nav .liens{
     align-items: center;
     background-color: #F2F2F2;
     border-radius: 20px;
-    height: 800px;
+    height: auto;
     flex: 2;
 }
 .box-content{
