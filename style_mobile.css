@@ -162,6 +162,9 @@ section #activities{
     width: 100%;
     margin: auto;
 }
+.activities figure figcaption{
+    font-size: 20px;
+}
 #activitiescolumn1{
     justify-content: space-between;
     align-items: center;
@@ -175,10 +178,11 @@ section #activities{
 #activitiescolumn3{
     width: 100%;
 }
-#activitiescolumn4{
-    justify-content: space-between;
-    width: 100%;
-    gap: 50px;
+#activitiescolumn3 figcaption{
+    font-size: 15px;
+}
+#activitiescolumn4 figcaption{
+    font-size: 17px;
 }
 #activitiesbox4{
     width: 100%;
