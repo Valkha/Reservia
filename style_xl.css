@@ -1,3 +1,18 @@
 .filters ul {
-  width: 70%;
+    width: 70%;
+}
+h4 {
+    font-size: 20px;
+}
+.host .box-content {
+    height: 200px;
+}
+.host .box-content h4 {
+    margin: 3px;
+}
+.host .box-content p {
+    margin: 3px;
+}
+.host .box-content .stars {
+    margin: 3px;
 }
