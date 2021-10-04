@@ -224,19 +224,6 @@ p {
 #activitiesbox4 img {
     height: 80%;
 }
-footer {
-    flex-direction: column;
-    align-items: flex-start;
-    height: auto;
-}
-#info {
-    margin-bottom: 50px;
-}
-#info,
-#hosting,
-#assist {
-    margin-left: 30px;
-}
 section h3 {
     margin: 30px 0px;
     width: 100%;
